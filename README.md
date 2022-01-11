@@ -1,3 +1,12 @@
+# Fork
+This fork is an attempt at improving the original tui-rs with:
+- better performance
+  - Remove allocations from widgets (
+    [537](https://github.com/fdehau/tui-rs/issues/537)
+    [357](https://github.com/fdehau/tui-rs/issues/357)
+  )
+- Merge a few stale PRs and fix simple issues
+
 # tui-rs
 
 [![Build Status](https://github.com/fdehau/tui-rs/workflows/CI/badge.svg)](https://github.com/fdehau/tui-rs/actions?query=workflow%3ACI+)
